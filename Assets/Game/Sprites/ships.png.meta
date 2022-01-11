@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: 7f484cbcc8b439c41b747e7bdeff92be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6877657737085974523
+    second: EnemyShip
+  - first:
+      213: 5913295629867518172
+    second: EnemyShipEngineFlames
+  - first:
+      213: 8383162673023287823
+    second: PlayerShipEngineFlames
+  - first:
+      213: -8825041670847906069
+    second: ships_3
+  - first:
+      213: 3118750061902332518
+    second: ships_4
+  - first:
+      213: -6718432988787895233
+    second: ships_5
+  - first:
+      213: -797168720777067150
+    second: ships_6
+  - first:
+      213: -4522987028584636881
+    second: ships_7
+  - first:
+      213: -7653039100333099308
+    second: ships_8
+  - first:
+      213: 8714212296651016187
+    second: ships_9
+  - first:
+      213: -8084874238274840218
+    second: ships_10
+  - first:
+      213: 2794418158759056727
+    second: ships_11
+  - first:
+      213: -4648857032059535507
+    second: ships_12
+  - first:
+      213: -2304959186403469882
+    second: ships_13
+  - first:
+      213: 8119249936409394056
+    second: ships_14
+  - first:
+      213: 2884177739413884887
+    second: ships_15
+  - first:
+      213: -1986511610909899991
+    second: ships_16
+  - first:
+      213: 7513193811518922645
+    second: ships_17
+  - first:
+      213: -1369133203827550807
+    second: ships_18
+  - first:
+      213: 2171436348842804110
+    second: ships_19
+  - first:
+      213: 4402405062159405059
+    second: ships_20
+  - first:
+      213: 552870395930637983
+    second: ships_21
+  - first:
+      213: -3781714281351162041
+    second: ships_22
+  - first:
+      213: 4107702307641232175
+    second: ships_23
+  - first:
+      213: 2588697908561978627
+    second: ships_24
+  - first:
+      213: 7949206471542860602
+    second: ships_25
+  - first:
+      213: 671740438567666808
+    second: ships_26
+  - first:
+      213: -5313741180394227708
+    second: ships_27
+  - first:
+      213: -567819858881215726
+    second: ships_28
+  - first:
+      213: 816725134964839600
+    second: ships_29
+  - first:
+      213: -6535099359559994785
+    second: ships_30
+  - first:
+      213: 2288986798158225398
+    second: ships_31
+  - first:
+      213: 8950262219053546101
+    second: PlayerShip
+  - first:
+      213: 6546979568742340808
+    second: ships_33
+  - first:
+      213: 3636152252829662163
+    second: ships_34
+  - first:
+      213: -3658779490266505379
+    second: ships_35
+  - first:
+      213: 1120834416362529509
+    second: ships_36
+  - first:
+      213: -2752324960408326584
+    second: ships_37
+  - first:
+      213: 1986511771043943724
+    second: ships_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyShip
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1084
+        width: 202
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508064e3ab6ad80a0800000000000000
+      internalID: -6877657737085974523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyShipEngineFlames
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1036
+        width: 123
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd88f1e9b0f301250800000000000000
+      internalID: 5913295629867518172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShipEngineFlames
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2054
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f020ed3090af65470800000000000000
+      internalID: 8383162673023287823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerShip
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2106
+        width: 197
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a39455118b53c70800000000000000
+      internalID: 8950262219053546101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
