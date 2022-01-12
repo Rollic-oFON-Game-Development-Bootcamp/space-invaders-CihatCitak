@@ -91,6 +91,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3385051517786243626}
+  - component: {fileID: 7878091002000797824}
+  - component: {fileID: 105323650837035367}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -107,13 +109,77 @@ Transform:
   m_GameObject: {fileID: 3385051517786243605}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 3385051517260695802}
   - {fileID: 3385051519041079451}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &7878091002000797824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3385051517786243605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a675073c0e9424380ebc9d7a6d90f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyManager: {fileID: 0}
+  explosionPrefab: {fileID: 9195175115617530480, guid: 69d4dce4f27398b468527fddc729300e, type: 3}
+  laserRedPrefab: {fileID: 1200025453863436978, guid: cee089ebb3459bf4fbf59239bd81c01f, type: 3}
+--- !u!60 &105323650837035367
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3385051517786243605}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.30294132, y: 0.026649952}
+      - {x: 0.28102493, y: 0.07332301}
+      - {x: 0.20857549, y: 0.071843624}
+      - {x: 0.16226101, y: 0.09039831}
+      - {x: 0.099876165, y: 0.33027697}
+      - {x: 0.056327105, y: 0.32633376}
+      - {x: 0.04180193, y: 0.175529}
+      - {x: -0.038990498, y: 0.16726351}
+      - {x: -0.051549435, y: 0.32985568}
+      - {x: -0.093361616, y: 0.32758904}
+      - {x: -0.15054774, y: 0.0777688}
+      - {x: -0.19210958, y: 0.057854652}
+      - {x: -0.2646749, y: 0.07743335}
+      - {x: -0.35257196, y: 0.045258284}
+      - {x: -0.4529605, y: 0.15654731}
+      - {x: -0.45517564, y: 0.15814495}
+      - {x: -0.4576919, y: 0.1599598}
+      - {x: -0.4894147, y: 0.15599442}
+      - {x: -0.48711044, y: 0.027477056}
+      - {x: -0.2427997, y: -0.19042242}
+      - {x: 0.2665919, y: -0.18249154}
+      - {x: 0.49088526, y: 0.013453484}
+      - {x: 0.4872551, y: 0.15619612}
+      - {x: 0.45538807, y: 0.15436834}
 --- !u!1 &3385051519041079450
 GameObject:
   m_ObjectHideFlags: 0

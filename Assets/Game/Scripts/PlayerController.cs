@@ -6,11 +6,14 @@ using Inputs;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] InputSettings inputSettings;
+    [SerializeField] GameObject explosionPrefab;
+    [SerializeField] GameObject laserGreenPrefab;
     [SerializeField] Transform sideMovementRoot, leftLimitTransform, rightLimitTransform;
     [SerializeField] float sideMovementSensitivity;
     [SerializeField] float rotationSpeed;
+    [SerializeField] float fireRate = 5f;
 
-    float leftLimitX, rightLimitX;
+    float leftLimitX, rightLimitX, lastFireTime;
 
     private void Start()
     {
@@ -21,8 +24,12 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         HandleSideMovement();
+
+        if (CanFire())
+            Fire();
     }
 
+    #region Movement
     private void HandleSideMovement()
     {
         var localPos = sideMovementRoot.localPosition;
@@ -40,5 +47,38 @@ public class PlayerController : MonoBehaviour
         var targetRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
 
         sideMovementRoot.rotation = Quaternion.Lerp(sideMovementRoot.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+    }
+    #endregion
+
+    #region Fire
+    public void Fire()
+    {
+        Destroy(Instantiate(laserGreenPrefab, sideMovementRoot.position, Quaternion.identity), 10f);
+
+        lastFireTime = Time.time;
+    }
+
+    private bool CanFire()
+    {
+        if ((lastFireTime + fireRate) < Time.time)
+        {
+            return true;
+        }
+        else
+            return false;
+    }
+    #endregion
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("EnemyLaser"))
+        {
+            Destroy(collision.gameObject);
+
+            Destroy(Instantiate(explosionPrefab, sideMovementRoot.position, Quaternion.identity), 1f);
+
+            Destroy(gameObject);
+            //Player da yok olacak UI iþlemleri
+        }
     }
 }
