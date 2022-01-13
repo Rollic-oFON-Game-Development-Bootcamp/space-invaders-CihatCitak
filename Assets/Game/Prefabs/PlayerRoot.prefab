@@ -348,7 +348,7 @@ MonoBehaviour:
   rightLimitTransform: {fileID: 5239101484799255555}
   sideMovementSensitivity: 30
   rotationSpeed: 1.5
-  fireRate: 2.5
+  fireRate: 1
 --- !u!1 &5239101484799255554
 GameObject:
   m_ObjectHideFlags: 0

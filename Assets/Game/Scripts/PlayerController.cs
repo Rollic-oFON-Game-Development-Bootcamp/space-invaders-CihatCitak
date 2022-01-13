@@ -23,10 +23,14 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        HandleSideMovement();
+        if(GameManagement.Instance.GameState == GameManagement.GameStates.START)
+        {
+            HandleSideMovement();
 
-        if (CanFire())
-            Fire();
+            if (CanFire())
+                Fire();
+        }
+        
     }
 
     #region Movement
@@ -53,7 +57,7 @@ public class PlayerController : MonoBehaviour
     #region Fire
     public void Fire()
     {
-        Destroy(Instantiate(laserGreenPrefab, sideMovementRoot.position, Quaternion.identity), 10f);
+        Destroy(Instantiate(laserGreenPrefab, sideMovementRoot.position, Quaternion.identity), 5f);
 
         lastFireTime = Time.time;
     }
@@ -73,12 +77,13 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("EnemyLaser"))
         {
+            GameManagement.Instance.LoseTheGame();
+
             Destroy(collision.gameObject);
 
             Destroy(Instantiate(explosionPrefab, sideMovementRoot.position, Quaternion.identity), 1f);
 
             Destroy(gameObject);
-            //Player da yok olacak UI iþlemleri
         }
     }
 }

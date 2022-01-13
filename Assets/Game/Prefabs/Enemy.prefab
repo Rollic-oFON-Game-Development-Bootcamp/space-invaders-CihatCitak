@@ -131,6 +131,7 @@ MonoBehaviour:
   enemyManager: {fileID: 0}
   explosionPrefab: {fileID: 9195175115617530480, guid: 69d4dce4f27398b468527fddc729300e, type: 3}
   laserRedPrefab: {fileID: 1200025453863436978, guid: cee089ebb3459bf4fbf59239bd81c01f, type: 3}
+  flipDuration: 3
 --- !u!60 &105323650837035367
 PolygonCollider2D:
   m_ObjectHideFlags: 0
